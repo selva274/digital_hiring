@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    height: 60px;   
+}
+.nav h1{
+    margin-left:20px;
+    margin-top:4px
+}
+.nav .navigationlist{
+   margin: 20px;
+   margin-right: 20px;
+
+}
+.nav .navigationlist a{
+    text-decoration: none;
+    color: white;
+
+}
+.head_content{
+    margin-top: 35px;
+    display: flex;    
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.head_content .para{
+    width: 50%;
+}
+.head_content .para h3{
+    font-size: 50px;
+}
+
+.head_content .img img{
+    width: 350px;
+    height: 270px;
+    border-radius: 50%;
+    border: 5px  solid blue;
+}
+.sub_content {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;    
+    justify-content: center;
+
+}
+.sub_content .sub_para{  
+    height: 200px;
+   
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   width: 100%;
+
+}
+.sub_content .sub_para p{
+    margin-left: 50px;
+}
+.sub_content .prologue{
+   height: 100px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   width: 100%;
+  
+}
